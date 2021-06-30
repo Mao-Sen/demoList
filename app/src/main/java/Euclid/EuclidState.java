@@ -1,4 +1,5 @@
 package Euclid;
 
-public class EuclidState {
+public enum EuclidState {
+    Closed, Opening, Opened, Closing
 }

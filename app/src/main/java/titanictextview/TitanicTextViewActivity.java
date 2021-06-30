@@ -1,4 +1,4 @@
-package titanic_textview;
+package titanictextview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,5 +15,11 @@ public class TitanicTextViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_titanic_text_view);
+        TitanicTextView tv = (TitanicTextView) findViewById(R.id.my_text_view);
+        // set fancy typeface
+        tv.setTypeface(Typefaces.get(this, "Satisfy-Regular.ttf"));
+
+        // start animation
+        new Titanic().start(tv);
     }
 }

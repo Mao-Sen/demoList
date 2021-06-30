@@ -5,7 +5,11 @@ plugins {
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
-
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
     defaultConfig {
         applicationId "com.example.testone"
         minSdkVersion 16
@@ -14,6 +18,11 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+        }
     }
 
     buildTypes {
@@ -28,12 +37,31 @@ android {
     }
 }
 
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation files('libs/AMap3DMap_7.9.1_AMapSearch_7.9.0_AMapLocation_5.3.1_20210414.jar')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    compile 'com.squareup.picasso:picasso:2.5.0'
+    compile 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.github.ozodrukh:CircularReveal:1.0.5@aar'
+
+//    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    //3D地图so及jar
+//    compile 'com.amap.api:3dmap:latest.integration'
+//    //定位功能
+//    compile 'com.amap.api:location:latest.integration'
+//    //搜索功能
+//    compile 'com.amap.api:search:latest.integration'
 }

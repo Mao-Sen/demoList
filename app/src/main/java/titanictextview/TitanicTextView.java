@@ -1,4 +1,4 @@
-package titanic_textview;
+package titanictextview;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

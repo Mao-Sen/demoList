@@ -1,4 +1,4 @@
-package titanic_textview;
+package titanictextview;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
