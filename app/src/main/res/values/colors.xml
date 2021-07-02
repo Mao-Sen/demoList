@@ -11,4 +11,7 @@
     <color name="gray">#21252a</color>
     <color name="orange">#ff8c6a</color>
     <color name="blue">#ff14445a</color>
+
+    <color name="picker_pink_color">#fffd6c8e</color>
+    <color name="filter_tab_bottom_line">#ffdddede</color>
 </resources>

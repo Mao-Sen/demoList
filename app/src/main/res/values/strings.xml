@@ -12,6 +12,8 @@
     <string name="toolbar_bio">Bio</string>
     <string name="toolbar_details">Details</string>
 
+    <string name="hello">这个是抽屉控件的demo!!! Have a try！！</string>
+
     <string-array name="array_names">
         <item>"Anastasia Druzhinina"</item>
         <item>"Andriy Hristyan"</item>
