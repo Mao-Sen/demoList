@@ -21,7 +21,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestOne">
-        <activity android:name="slidingDrawer.SlidingDrawerDemoActivity"></activity>
+        <activity android:name="myMP.HomeActivity"></activity>
+        <activity android:name="myMP.PlayActivity" />
+        <activity android:name="myMP.HavePictureActivity" />
+        <activity android:name="myMP.HaveMuiscActivity" />
+        <activity android:name="slidingDrawer.SlidingDrawerDemoActivity" />
         <activity android:name="dialogSilde.DialogSlideActivity" />
         <activity android:name="Euclid.EuclidMainActivity" />
         <activity android:name="Euclid.EuclidActivity" />

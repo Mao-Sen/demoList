@@ -26,6 +26,7 @@ import java.util.zip.ZipFile;
 import BackgroundColor.SampleActivity;
 import Euclid.EuclidMainActivity;
 import dialogSilde.DialogSlideActivity;
+import myMP.HomeActivity;
 import slidingDrawer.SlidingDrawerDemoActivity;
 import staticproxy.ProxyActivity;
 import titanictextview.TitanicTextViewActivity;
@@ -87,6 +88,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, SlidingDrawerDemoActivity.class));
+            }
+        });
+        findViewById(R.id.picture).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, HomeActivity.class));
             }
         });
     }

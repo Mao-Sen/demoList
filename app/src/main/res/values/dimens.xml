@@ -14,4 +14,7 @@
 
     <!-- *height_profile_picture_with_toolbar* - half of *size_button_message* -->
     <dimen name="margin_top_button_message">290dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 </resources>
