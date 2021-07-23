@@ -29,7 +29,7 @@ public class SlidingDrawerDemoActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textView);
         textView.setText("上拉或点击打开");
         slidingDrawer = (SlidingDrawer) findViewById(R.id.myslidingDrawer);
-        slidingDrawer.setOnDrawerOpenListener(new SlidingDrawer.OnDrawerOpenListener() { // �򿪳���
+        slidingDrawer.setOnDrawerOpenListener(new SlidingDrawer.OnDrawerOpenListener() {
 
             @Override
             public void onDrawerOpened() {

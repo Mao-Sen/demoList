@@ -27,4 +27,6 @@
         <item>"Pavel Apisov"</item>
         <item>"Vadim Ooleynik"</item>
     </string-array>
+
+    <string name="menu_settings">Settings</string>
 </resources>

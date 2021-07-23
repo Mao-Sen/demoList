@@ -13,6 +13,12 @@
         android:text="进入高德地图"/>
 
     <Button
+        android:id="@+id/mapBaidu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进入百度地图"/>
+
+    <Button
         android:id="@+id/proxy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,6 +58,36 @@
         android:id="@+id/picture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="相册"/>
+        android:text="相册(bug)"/>
+
+    <Button
+        android:id="@+id/listview_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListViewTest(bug)"/>
+
+    <Button
+        android:id="@+id/alarm_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抽屉案例"/>
+
+    <Button
+        android:id="@+id/view_flipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="viewflipper"/>
+
+    <Button
+        android:id="@+id/header_bottomList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HeaderBottomList"/>
+
+    <Button
+        android:id="@+id/animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="切换页面动画"/>
 
 </LinearLayout>

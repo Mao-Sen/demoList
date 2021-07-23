@@ -1,35 +1,24 @@
 package com.example.testone;
 
-import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.math.BigInteger;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-
 import BackgroundColor.SampleActivity;
 import Euclid.EuclidMainActivity;
+import HeaderBottomList.HeaderBottomListActivity;
+import androidAlarmService.AndroidAlarmService;
+import baiduMapSDK.BaiDuMapActivity;
 import dialogSilde.DialogSlideActivity;
+import listview.ListViewTestActivity;
 import myMP.HomeActivity;
 import slidingDrawer.SlidingDrawerDemoActivity;
 import staticproxy.ProxyActivity;
 import titanictextview.TitanicTextViewActivity;
+import viewFlipperActivity.ViewFlipperActivity;
+import wechatActivityAnimation.wechatAnimationActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -94,6 +83,42 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, HomeActivity.class));
+            }
+        });
+        findViewById(R.id.listview_test).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ListViewTestActivity.class));
+            }
+        });
+        findViewById(R.id.alarm_service).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, AndroidAlarmService.class));
+            }
+        });
+        findViewById(R.id.view_flipper).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ViewFlipperActivity.class));
+            }
+        });
+        findViewById(R.id.header_bottomList).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, HeaderBottomListActivity.class));
+            }
+        });
+        findViewById(R.id.animation).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, wechatAnimationActivity.class));
+            }
+        });
+        findViewById(R.id.mapBaidu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, BaiDuMapActivity.class));
             }
         });
     }

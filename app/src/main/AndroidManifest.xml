@@ -13,15 +13,30 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 获取网络状态，根据网络状态切换进行数据请求网络转换 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <!-- 读取外置存储。如果开发者使用了so动态加载功能并且把so文件放在了外置存储区域，则需要申请该权限，否则不需要 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 写外置存储。如果开发者使用了离线地图，并且数据写在外置存储区域，则需要申请该权限 -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".MyApplication"
         android:theme="@style/Theme.TestOne">
-        <activity android:name="myMP.HomeActivity"></activity>
+        <activity android:name="baiduMapSDK.BaiDuMapActivity"></activity>
+        <activity android:name="wechatActivityAnimation.wechatAnimationActivity" />
+        <activity android:name="wechatActivityAnimation.Two" />
+        <activity android:name="wechatActivityAnimation.Three" />
+        <activity android:name="wechatActivityAnimation.Four" />
+        <activity android:name="HeaderBottomList.HeaderBottomListActivity" />
+        <activity android:name="viewFlipperActivity.ViewFlipperActivity" />
+        <activity android:name="androidAlarmService.AndroidAlarmService" />
+        <activity android:name="listview.ListViewTestActivity" />
+        <activity android:name="myMP.HomeActivity" />
         <activity android:name="myMP.PlayActivity" />
         <activity android:name="myMP.HavePictureActivity" />
         <activity android:name="myMP.HaveMuiscActivity" />
@@ -44,6 +59,10 @@
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="3a2150a578c97b74d82e8ae504a49da6" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="7101eTxPuxXWtYNmn1IITSHHF5iO18zz" />
     </application>
 
 </manifest>
