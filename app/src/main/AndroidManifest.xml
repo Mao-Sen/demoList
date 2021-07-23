@@ -32,16 +32,7 @@
         <activity android:name="wechatActivityAnimation.Two" />
         <activity android:name="wechatActivityAnimation.Three" />
         <activity android:name="wechatActivityAnimation.Four" />
-        <activity android:name="HeaderBottomList.HeaderBottomListActivity" />
         <activity android:name="viewFlipperActivity.ViewFlipperActivity" />
-        <activity android:name="androidAlarmService.AndroidAlarmService" />
-        <activity android:name="listview.ListViewTestActivity" />
-        <activity android:name="myMP.HomeActivity" />
-        <activity android:name="myMP.PlayActivity" />
-        <activity android:name="myMP.HavePictureActivity" />
-        <activity android:name="myMP.HaveMuiscActivity" />
-        <activity android:name="slidingDrawer.SlidingDrawerDemoActivity" />
-        <activity android:name="dialogSilde.DialogSlideActivity" />
         <activity android:name="Euclid.EuclidMainActivity" />
         <activity android:name="Euclid.EuclidActivity" />
         <activity android:name="BackgroundColor.SampleActivity" />
@@ -59,7 +50,7 @@
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="3a2150a578c97b74d82e8ae504a49da6" />
-
+        <!--百度地图-->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="7101eTxPuxXWtYNmn1IITSHHF5iO18zz" />

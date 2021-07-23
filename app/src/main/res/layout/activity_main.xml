@@ -22,7 +22,7 @@
         android:id="@+id/proxy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proxy"/>
+        android:text="Proxy模式"/>
 
     <Button
         android:id="@+id/TitanicTextView"
@@ -43,46 +43,10 @@
         android:text="Eucild"/>
 
     <Button
-        android:id="@+id/dialog_silde"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dialog滑动"/>
-
-    <Button
-        android:id="@+id/sildingDrawer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="抽屉控件"/>
-
-    <Button
-        android:id="@+id/picture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="相册(bug)"/>
-
-    <Button
-        android:id="@+id/listview_test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ListViewTest(bug)"/>
-
-    <Button
-        android:id="@+id/alarm_service"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="抽屉案例"/>
-
-    <Button
         android:id="@+id/view_flipper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="viewflipper"/>
-
-    <Button
-        android:id="@+id/header_bottomList"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="HeaderBottomList"/>
 
     <Button
         android:id="@+id/animation"

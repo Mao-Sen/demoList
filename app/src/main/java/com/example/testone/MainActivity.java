@@ -8,13 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import BackgroundColor.SampleActivity;
 import Euclid.EuclidMainActivity;
-import HeaderBottomList.HeaderBottomListActivity;
-import androidAlarmService.AndroidAlarmService;
 import baiduMapSDK.BaiDuMapActivity;
-import dialogSilde.DialogSlideActivity;
-import listview.ListViewTestActivity;
-import myMP.HomeActivity;
-import slidingDrawer.SlidingDrawerDemoActivity;
 import staticproxy.ProxyActivity;
 import titanictextview.TitanicTextViewActivity;
 import viewFlipperActivity.ViewFlipperActivity;
@@ -66,49 +60,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.dialog_silde).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, DialogSlideActivity.class));
-            }
-        });
-
-        findViewById(R.id.sildingDrawer).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, SlidingDrawerDemoActivity.class));
-            }
-        });
-        findViewById(R.id.picture).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, HomeActivity.class));
-            }
-        });
-        findViewById(R.id.listview_test).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ListViewTestActivity.class));
-            }
-        });
-        findViewById(R.id.alarm_service).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, AndroidAlarmService.class));
-            }
-        });
         findViewById(R.id.view_flipper).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, ViewFlipperActivity.class));
             }
         });
-        findViewById(R.id.header_bottomList).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, HeaderBottomListActivity.class));
-            }
-        });
+
         findViewById(R.id.animation).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
