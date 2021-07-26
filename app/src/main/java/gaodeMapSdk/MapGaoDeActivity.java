@@ -1,4 +1,4 @@
-package com.example.testone;
+package gaodeMapSdk;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,6 +20,7 @@ import com.amap.api.maps.model.MyLocationStyle;
 import com.amap.api.maps.model.PolygonOptions;
 import com.amap.api.maps.model.Polyline;
 import com.amap.api.maps.model.PolylineOptions;
+import com.example.testone.R;
 
 import java.security.PublicKey;
 import java.util.ArrayList;

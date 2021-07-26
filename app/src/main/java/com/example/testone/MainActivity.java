@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import BackgroundColor.SampleActivity;
 import Euclid.EuclidMainActivity;
 import baiduMapSDK.BaiDuMapActivity;
+import gaodeMapSdk.MapGaoDeActivity;
 import staticproxy.ProxyActivity;
 import titanictextview.TitanicTextViewActivity;
 import viewFlipperActivity.ViewFlipperActivity;
