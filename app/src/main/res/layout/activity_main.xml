@@ -19,6 +19,12 @@
         android:text="进入百度地图"/>
 
     <Button
+        android:id="@+id/mapTencent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进入腾讯地图"/>
+
+    <Button
         android:id="@+id/proxy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,4 +60,9 @@
         android:layout_height="wrap_content"
         android:text="切换页面动画"/>
 
+    <Button
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"/>
 </LinearLayout>
