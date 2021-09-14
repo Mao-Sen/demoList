@@ -1,2 +1,3 @@
 include ':app'
-rootProject.name = "TestOne"
+rootProject.name = "DemoList"
+include ':baseui'

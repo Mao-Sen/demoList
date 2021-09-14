@@ -27,7 +27,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestOne">
-        <activity android:name="tencentMapSDK.TencentMapActivity"></activity>
+        <activity android:name="logcat.LogcatActivity"></activity>
+        <activity android:name="tencentMapSDK.TencentMapActivity" />
         <activity android:name="baiduMapSDK.BaiDuMapActivity" />
         <activity android:name="wechatActivityAnimation.wechatAnimationActivity" />
         <activity android:name="wechatActivityAnimation.Two" />

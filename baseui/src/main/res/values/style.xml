@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="StateView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="msv_animateViewChanges">false</item>
+        <item name="msv_emptyView">@layout/layout_state_empty</item>
+        <item name="msv_errorView">@layout/layout_state_error</item>
+        <item name="msv_loadingView">@layout/layout_state_loading</item>
+        <item name="msv_viewState">content</item>
+    </style>
+
+    <style name="ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?colorMainOrSurface</item>
+        <item name="ab_immersion">immersed</item>
+        <item name="ab_statusBarMode">auto</item>
+        <item name="ab_bottomLineHeight">@dimen/action_bar_bottom_line_height</item>
+        <item name="ab_foregroundLayerLayout">@layout/basic_ui_loading_bar</item>
+        <item name="ab_statusBarColor">?colorTransparent</item>
+        <item name="ab_titleBarHeight">@dimen/action_bar_height</item>
+    </style>
+
+    <style name="ActionBar.Common">
+        <item name="abc_titleTextColor">?colorOnMainOrSurface</item>
+        <item name="abc_leftIconColor">?colorOnMainOrSurface</item>
+        <item name="abc_leftIconPadding">@dimen/basic_ui_action_bar_icon_padding</item>
+        <item name="abc_leftIconMarginLeft">@dimen/basic_ui_action_bar_icon_margin</item>
+        <item name="abc_leftTextColor">?colorOnMainOrSurface</item>
+        <item name="abc_rightIconColor">?colorOnMainOrSurface</item>
+        <item name="abc_rightIconPadding">@dimen/basic_ui_action_bar_icon_padding</item>
+        <item name="abc_rightIconMarginRight">@dimen/basic_ui_action_bar_icon_margin</item>
+        <item name="abc_rightTextColor">?colorOnMainOrSurface</item>
+    </style>
+
+    <style name="ActionBar.Common.Back">
+        <item name="abc_leftIconRes">@mipmap/ic_back</item>
+        <item name="abc_leftIconMarginLeft">0dp</item>
+        <item name="abc_leftIconClickToFinish">true</item>
+    </style>
+
+    <style name="ActionBar.Super">
+        <item name="absuper_titleTextColor">?colorOnMainOrSurface</item>
+        <item name="absuper_iconColor">?colorOnMainOrSurface</item>
+        <item name="absuper_iconPadding">@dimen/basic_ui_action_bar_icon_padding</item>
+        <item name="android:paddingLeft">@dimen/basic_ui_action_bar_icon_margin</item>
+        <item name="android:paddingRight">@dimen/basic_ui_action_bar_icon_margin</item>
+    </style>
+
+    <style name="ActionBar.Super.Back">
+        <item name="absuper_left1Icon">@mipmap/ic_back</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="absuper_left1IconClickToFinish">true</item>
+    </style>
+
+</resources>

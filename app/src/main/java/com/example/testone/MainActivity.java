@@ -1,6 +1,7 @@
 package com.example.testone;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -8,12 +9,16 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.baseui.ResUtils;
+import com.example.baseui.TestToolbarActivity;
+
 import org.w3c.dom.Text;
 
 import BackgroundColor.SampleActivity;
 import Euclid.EuclidMainActivity;
 import baiduMapSDK.BaiDuMapActivity;
 import gaodeMapSdk.MapGaoDeActivity;
+import logcat.LogcatActivity;
 import staticproxy.ProxyActivity;
 import tencentMapSDK.TencentMapActivity;
 import titanictextview.TitanicTextViewActivity;
@@ -96,6 +101,18 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Button test = findViewById(R.id.test);
                 test.setText("1234");
+            }
+        });
+        findViewById(R.id.logcat).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, LogcatActivity.class));
+            }
+        });
+        findViewById(R.id.toolbar).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, TestToolbarActivity.class));
             }
         });
     }
