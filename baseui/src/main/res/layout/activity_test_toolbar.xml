@@ -8,7 +8,8 @@
     tools:context=".TestToolbarActivity">
 
     <per.goweii.actionbarex.common.ActionBarCommon
-        style="@style/ActionBar"
+        android:id="@+id/abc"
+        style="@style/ActionBar.Common.Back"
         app:abc_rightIconRes="@mipmap/ic_close"
         app:abc_titleText="我的分享"
         android:background="@color/color_blue"
