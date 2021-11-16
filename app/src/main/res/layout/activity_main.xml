@@ -13,68 +13,9 @@
         android:text="进入高德地图"/>
 
     <Button
-        android:id="@+id/mapBaidu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="进入百度地图"/>
-
-    <Button
         android:id="@+id/mapTencent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="进入腾讯地图"/>
 
-    <Button
-        android:id="@+id/proxy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Proxy模式"/>
-
-    <Button
-        android:id="@+id/TitanicTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TitanicTextView"/>
-
-    <Button
-        android:id="@+id/sample"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ViewPager渐变背景色"/>
-
-    <Button
-        android:id="@+id/eucild"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Eucild"/>
-
-    <Button
-        android:id="@+id/view_flipper"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="viewflipper"/>
-
-    <Button
-        android:id="@+id/animation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="切换页面动画"/>
-
-    <Button
-        android:id="@+id/test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="test"/>
-
-    <Button
-        android:id="@+id/logcat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="logcat"/>
-
-    <Button
-        android:id="@+id/toolbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="toolbar"/>
 </LinearLayout>
