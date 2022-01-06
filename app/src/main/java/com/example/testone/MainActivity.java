@@ -6,6 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import fireworks.FireworksActivity;
 import gaodeMapSdk.MapGaoDeActivity;
 import tencentMapSDK.TencentMapActivity;
 
@@ -34,5 +35,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.fireworks).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, FireworksActivity.class));
+            }
+        });
     }
 }

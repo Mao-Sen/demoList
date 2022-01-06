@@ -80,7 +80,7 @@ public class MapGaoDeActivity extends AppCompatActivity {
         aMap.setMyLocationStyle(myLocationStyle);//设置定位蓝点的Style
 //aMap.getUiSettings().setMyLocationButtonEnabled(true);设置默认定位按钮是否显示，非必需设置。
         aMap.setMyLocationEnabled(true);
-        myLocationStyle.showMyLocation(true);
+        //myLocationStyle.showMyLocation(true);
     }
 
 
